@@ -96,7 +96,6 @@ public class LinkedList<E> {
         //* khi temp.next == null thi day la phan tu cuoi cung
         while (temp.next != null) {
             if (temp.next.data.equals(e)) {
-                temp.next = temp.next.next;
                 numNodes--;
                 return true;
             }
